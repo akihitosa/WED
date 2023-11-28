@@ -1,0 +1,20 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #F0F0F0;
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* 中のコンテンツ部分の最大幅を設定 */
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

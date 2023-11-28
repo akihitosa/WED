@@ -2,20 +2,15 @@ html {
     font-size: 100%;
   }
   body {
-    background-color: #f4f9ff;
-    color: #333;
+    background-color: #F0F0F0;
+    color: #000000;
     font-size: 0.875rem;
   }
   img {
     max-width: 100%;
   }
-  /* サイト全体のコンテンツ幅を設定 */
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
   /* 中のコンテンツ部分の最大幅を設定 */
   .inner {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
   }
