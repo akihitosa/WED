@@ -13,8 +13,85 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 /* 中のコンテンツ部分の最大幅を設定 */
 .inner {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header_outer {
+  display: flex;
+  align-items: center;
+  margin-left: 91px;
+}
+
+@media screen and (max-width: 900px) {
+  .header_outer {
+    display: block;
+    margin-left: 16px;
+  }
+}
+.header_logo {
+  width: 100px;
+}
+
+.header_nav {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .header_nav {
+    margin-left: 0px;
+  }
+}
+.header_nav_list {
+  display: flex;
+}
+.header_nav_list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header_inquiry {
+  width: 200px;
+  height: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.header_inquiry p {
+  text-align: center;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  .header_inquiry {
+    display: none;
+  }
+}
+.mainvisual {
+  margin-bottom: 120px;
+}
+
+.news {
+  margin-bottom: 120px;
+}
+
+.news_title {
+  font-size: 2.25rem;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */

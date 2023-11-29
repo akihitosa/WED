@@ -1,16 +1,133 @@
 html {
     font-size: 100%;
-  }
-  body {
+}
+
+body {
     background-color: #F0F0F0;
     color: #000000;
     font-size: 0.875rem;
-  }
-  img {
+}
+
+img {
     max-width: 100%;
-  }
-  /* 中のコンテンツ部分の最大幅を設定 */
-  .inner {
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* 中のコンテンツ部分の最大幅を設定 */
+.inner {
     max-width: 1000px;
     margin: 0 auto;
-  }
+}
+
+// ヘッダー　----------------------------------------------------------------------
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+.header_outer {
+    display: flex;
+    align-items: center;
+    margin-left: 91px;
+}
+
+@media screen and (max-width: 900px) {
+    .header_outer {
+        display: block;
+        margin-left: 16px;
+    }
+}
+
+.header_logo {
+    width: 100px;
+}
+
+.header_nav {
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .header_nav {
+        margin-left: 0px
+    }
+}
+
+.header_nav_list {
+    display: flex;
+
+    li:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+
+.header_inquiry {
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+
+    p {
+        text-align: center;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header_inquiry {
+        display: none;
+    }
+}
+
+.mainvisual {
+    margin-bottom: 120px;
+}
+
+// news -------------------------------------------------------------------------
+
+.news {
+margin-bottom: 120px;
+}
+
+.news_title {
+font-size: 2.25rem;
+font-weight: normal;
+}
+
+.news_itme1 {
+
+}
+
+.news_item-date {
+
+}
+
+.news_item-post {
+
+}
+
+.news_item-text {
+
+}
+
+.news_itme2 {
+
+}
+
+.news_itme3 {
+
+}
+
+
